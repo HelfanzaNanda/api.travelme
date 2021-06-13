@@ -1,10 +1,10 @@
 <?php
 
-use App\Driver;
-use App\Models\Car;
-use App\Models\Going;
-use App\Models\Hour;
 use App\User;
+use App\Models\Car;
+use App\Models\Hour;
+use App\Models\Going;
+use App\Models\Driver;
 use Illuminate\Database\Seeder;
 
 class GoingSeeder extends Seeder
