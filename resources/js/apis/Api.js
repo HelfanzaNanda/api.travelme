@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 let baseApi = axios.create({
-    baseURL : "http://localhost:8000/api/"
+    baseURL : "https://travelme.alfara-dev.com/api/"
 })
 
 let Api = function(){
