@@ -1,8 +1,8 @@
 <?php
 
-use App\Driver;
 use App\User;
 use Faker\Generator;
+use App\Models\Driver;
 use Illuminate\Database\Seeder;
 
 class DriverSeeder extends Seeder
