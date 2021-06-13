@@ -3,10 +3,10 @@ import { Route, Switch } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import NavbarComponent from '../components/NavbarComponent';
 import Login from '../views/auth/Login';
-import CarIndex from '../views/cars'
+import CarIndex from '../views/cars/Index'
 import Dashboard from '../views/dashboard/Index';
-import DriverIndex from '../views/drivers'
-import GoingIndex from '../views/goings'
+import DriverIndex from '../views/drivers/Index'
+import GoingIndex from '../views/goings/Index'
 import Authenticated from '../middleware/Authenticated'
 import Guest from '../middleware/Guest'
 import OrderIndex from '../views/orders'
