@@ -9,7 +9,7 @@ import DriverIndex from '../views/drivers/Index'
 import GoingIndex from '../views/goings/Index'
 import Authenticated from '../middleware/Authenticated'
 import Guest from '../middleware/Guest'
-import OrderIndex from '../views/orders'
+import OrderIndex from '../views/orders/Index'
 
 const Router = () => {
 	return (
